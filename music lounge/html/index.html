@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Our Artists</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC-DcPxH8M5UWn-UNcRJhzgOL5FhjrP-PQ",
+        authDomain: "music-lounge-b7900.firebaseapp.com",
+        databaseURL: "https://music-lounge-b7900.firebaseio.com",
+        projectId: "music-lounge-b7900",
+        storageBucket: "music-lounge-b7900.appspot.com",
+        messagingSenderId: "817200640315",
+        appId: "1:817200640315:web:be62f4cfe36ad4dc36071e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    </head>
+  <body>
+  <header>
+    <section>
+      <nav class="navbar">
+        <a href="index.html">
+          <img id="loungeImg" src="../bilder/logo.png" alt="logo">
+        </a>
+        <a href="shop.html">
+          <img id="logoImg" src="../bilder/cart.png" alt="shop">
+        </a>
+      </nav>
+    </section>
+
+
+  </header>
+  <main>
+    <section id="stickyBtn">
+      <h1>Filtering</h1>
+      <div>
+        <button id ="selAlfa" value="alfabetisk" type="button" name="Alfabetisk">A to Z</button>
+      </div>
+      <div>
+        <button id="selUSA" value="USA" type="button" name="button">American artists</button>
+      </div>
+      <div>
+        <button id="selRap" value="Rap" type="button" name="button">Rappers!</button>
+      </div>
+      <div>
+        <button id="selReggae" value="Reggae" type="button" name="button">Some Reggae my dudes</button>
+      </div>
+      <div>
+        <button id="selOGs" value="OGs" type="button" name="button">Some Real OGs</button>
+      </div>
+      <div>
+        <button id="selYG" value="YG" type="button" name="button">Younger the Better</button>
+      </div>
+
+      <hr>
+      
+      <div>
+        <button id="selReset" value="reset" type="button" name="button">RESET FILTERS</button>
+      </div>
+    </section>
+
+    <section id="secArtist">
+    </section>
+
+
+
+  </main>
+      <footer>
+        <section>
+          <h2>Location</h2>
+          <h4>Somewhere in Norway</h4>
+          <img id="norwayImg" src="../bilder/norway.png" alt="Norway">
+        </section>
+        <section>
+          <h2>Properties</h2>
+          <h1>–––––</h1>
+          <h1>Steenbuch INC</h1>
+        </section>
+        <section>
+          <h2>About</h2>
+          <h4>Almost the coolest website on the whole wide web</h4>
+          <img src="../bilder/steenbuch_logo.png" alt="Steenbuch">
+        </section>
+      </footer>
+
+  </body>
+  <script type="text/javascript" src="../js/index.js"></script>
+
+</html>

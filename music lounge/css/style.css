@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+header{
+  height: 120%;
+}
+ 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+
+  height: 170px;
+}
+
+
+button{
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  padding: 10px;
+
+  font-family: helvetica;
+  font-size: 20px;
+
+  cursor: url(../cursor/goldensword.cur), auto;
+}
+
+
+#selRap, #selOGs{
+  cursor: url(../cursor/cursor.cur), auto;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#logoImg{
+  width: 60%;
+}
+#loungeImg{
+  width: 100%;
+  margin-top: 5%;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: lightgrey;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  
+  text-align: center;
+}
+footer h4{
+  font-size: 2.5vw;
+
+  margin: 15px;
+}
+footer h1{
+  font-size: 4vw;
+}
+footer h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+footer img {
+  margin: auto;
+  width: 120px;
+}
+#norwayImg{
+  margin-top: 35px;
+  margin-left: 10px;
+}
+

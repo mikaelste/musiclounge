@@ -1,0 +1,44 @@
+main{
+    margin: auto;
+    width: 90%;
+}
+.albumSelection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+#secOrder{
+    margin: auto;
+    width: 100%;
+}
+#secAlbum img{
+    width: 100%;
+}
+
+#price h1{
+    font-size: 120px;
+}
+#secAlbum h2{
+    font-size: 50px;;
+}
+input{
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+
+    font-family: helvetica;
+    font-size: 20px;
+
+    cursor: url(../cursor/goldensword.cur), auto;
+
+}
+
+@media (max-width: 800px){
+    .albumSelection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+}
+
+}
